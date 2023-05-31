@@ -104,6 +104,10 @@ public class socialMediaApp {
 			x = scnr.nextInt();
 			toMainPage(x);
 		}
+		
+		else if (x == 6) {
+			
+		}
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
 	}
