@@ -107,6 +107,10 @@ public class socialMediaApp {
 		
 		else if (x == 6) {
 			System.out.println("Press 1 to flip a coin");
+			int y = scnr.nextInt();
+			if (y == 1) {
+				int z = (int) Math.random() * 2;
+			}
 		}
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
