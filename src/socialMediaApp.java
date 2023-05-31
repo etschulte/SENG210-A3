@@ -109,7 +109,16 @@ public class socialMediaApp {
 			System.out.println("Press 1 to flip a coin");
 			int y = scnr.nextInt();
 			if (y == 1) {
-				int z = (int) Math.random() * 2;
+				int z = (int) (Math.random() * (50 - 10)) + 10;
+				if (z <= 30) {
+					System.out.println("HEADS");
+				}
+				else {
+					System.out.println("TAILS");
+				}
+				x = scnr.nextInt();
+				toMainPage(x);
+				
 			}
 		}
 		System.out.println("Users " + users);
