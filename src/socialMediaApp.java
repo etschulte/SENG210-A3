@@ -106,7 +106,7 @@ public class socialMediaApp {
 		}
 		
 		else if (x == 6) {
-			
+			System.out.println("Press 1 to flip a coin");
 		}
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
