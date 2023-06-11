@@ -150,6 +150,7 @@ public class socialMediaApp {
 		}
 	}
 	
+	// main page method
 	public static void toMainPage(int x) {
 		Scanner scnr = new Scanner(System.in);
 		
