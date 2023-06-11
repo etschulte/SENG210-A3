@@ -130,6 +130,8 @@ public class socialMediaApp {
 				int z = (int) (Math.random() * (10 - 0)) + 0;
 				System.out.println("The random number is " + z);
 			}
+			x = scnr.nextInt();
+			toMainPage(x);
 		}
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
@@ -168,7 +170,8 @@ public class socialMediaApp {
 				+ "Choose 4 check your password \r\n"
 				+ "Choose 5 print ascii art of your choice \r\n"
 				+ "Choose 6 coin flip \r\n"
-				+ "Choose 7 to quit";
+				+ "Choose 7 to pick a random number 1-10 \r\n"
+				+ "Choose 8 to quit";
 	}
 	
 	// logo text
