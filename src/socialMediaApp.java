@@ -124,7 +124,12 @@ public class socialMediaApp {
 		
 		// random number picker
 		else if (x == 7) {
-			
+			System.out.println("Press 1 to choose a random number between 1-10");
+			int y = scnr.nextInt();
+			if (y == 1) {
+				int z = (int) (Math.random() * (10 - 0)) + 0;
+				System.out.println("The random number is " + z);
+			}
 		}
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
