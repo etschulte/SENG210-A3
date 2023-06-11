@@ -121,6 +121,11 @@ public class socialMediaApp {
 				
 			}
 		}
+		
+		// random number picker
+		else if (x == 7) {
+			
+		}
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
 	}
