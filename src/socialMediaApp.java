@@ -216,6 +216,8 @@ public class socialMediaApp {
 		}
 		
 	}
+	
+	// password validator method
 	public static boolean isValidPassword(String password) {
 		
 		boolean isValid = true;
