@@ -3,7 +3,8 @@ import java.util.ArrayList;
 
 
 public class socialMediaApp {
-
+	
+	// Main method
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
 		ArrayList <String> users = new ArrayList<String>();
