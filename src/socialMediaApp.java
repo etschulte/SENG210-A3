@@ -134,6 +134,7 @@ public class socialMediaApp {
 			x = scnr.nextInt();
 			toMainPage(x);
 		}
+		System.out.println("Goodbye!");
 		System.out.println("Users " + users);
 		System.out.println("Posts " + posts);
 	}
